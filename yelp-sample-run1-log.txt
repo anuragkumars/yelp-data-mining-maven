@@ -1,0 +1,1239 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building BrightPlan_M 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://nexusprod:8080/nexus/content/groups/public/org/seleniumhq/selenium/selenium-api/maven-metadata.xml
+Downloading: http://nexusprod:8080/nexus/content/repositories/snapshots/org/seleniumhq/selenium/selenium-api/maven-metadata.xml
+1/3 KB   3/3 KB            Downloaded: http://nexusprod:8080/nexus/content/groups/public/org/seleniumhq/selenium/selenium-api/maven-metadata.xml (3 KB at 13.7 KB/sec)
+Downloading: http://nexusprod:8080/nexus/content/groups/public/org/seleniumhq/selenium/selenium-support/maven-metadata.xml
+Downloading: http://nexusprod:8080/nexus/content/repositories/snapshots/org/seleniumhq/selenium/selenium-support/maven-metadata.xml
+         4/4 KB            Downloaded: http://nexusprod:8080/nexus/content/groups/public/org/seleniumhq/selenium/selenium-support/maven-metadata.xml (4 KB at 81.3 KB/sec)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ BrightPlan_M ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory c:\dev\docs\BrightPlan\BrightPlan_M\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ BrightPlan_M ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ BrightPlan_M ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory c:\dev\docs\BrightPlan\BrightPlan_M\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ BrightPlan_M ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ BrightPlan_M ---
+[INFO] Surefire report directory: c:\dev\docs\BrightPlan\BrightPlan_M\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.brightplan.automation.projects.yelp.YELP001_DisplaySearchDetails_JUnit
+Executing static in Base
+{Thu Jun 08 17:55:28 PDT 2017}[debug]** loadProperties () :: loaded properties .. ({selenium.waitTimeLinkClick=20000, OutputFileNameCsv=CurrentRun_ALL.out.csv, selenium.webdriver.chrome.version=47, selenium.waitTimePageLoad=20000, projectB.requirelogin=false, selenium.remoteExecutionEnabled=false, selenium.webdriver.chrome=driver/chromedriver.exe, selenium.driver.default=chrome, OutputFileNameRpt=CurrentRun_ALL.out.html, projectB.waitTimeMilliSeconds=5000, selenium.webdriver.chrome.platform=Windows XP, selenium.closeBrowserWin=yes, selenium.maximizeBrowserWin=yes})
+{Thu Jun 08 17:55:28 PDT 2017}[debug]** setupEnvConvertPropertiesToEnvVariables () :: Checking for properties .. ({selenium.waitTimeLinkClick=20000, OutputFileNameCsv=CurrentRun_ALL.out.csv, selenium.webdriver.chrome.version=47, selenium.waitTimePageLoad=20000, projectB.requirelogin=false, selenium.remoteExecutionEnabled=false, selenium.webdriver.chrome=driver/chromedriver.exe, selenium.driver.default=chrome, OutputFileNameRpt=CurrentRun_ALL.out.html, projectB.waitTimeMilliSeconds=5000, selenium.webdriver.chrome.platform=Windows XP, selenium.closeBrowserWin=yes, selenium.maximizeBrowserWin=yes})
+{Thu Jun 08 17:55:28 PDT 2017}[debug] Setting env value (20000) for key (selenium.waitTimeLinkClick) from config file
+{Thu Jun 08 17:55:28 PDT 2017}[debug] Setting env value (CurrentRun_ALL.out.csv) for key (OutputFileNameCsv) from config file
+{Thu Jun 08 17:55:28 PDT 2017}[debug] Setting env value (47) for key (selenium.webdriver.chrome.version) from config file
+{Thu Jun 08 17:55:28 PDT 2017}[debug] Setting env value (20000) for key (selenium.waitTimePageLoad) from config file
+{Thu Jun 08 17:55:28 PDT 2017}[debug] Setting env value (false) for key (projectB.requirelogin) from config file
+{Thu Jun 08 17:55:28 PDT 2017}[debug] Setting env value (false) for key (selenium.remoteExecutionEnabled) from config file
+{Thu Jun 08 17:55:28 PDT 2017}[debug] Setting env value (driver/chromedriver.exe) for key (selenium.webdriver.chrome) from config file
+{Thu Jun 08 17:55:28 PDT 2017}[debug] Setting env value (chrome) for key (selenium.driver.default) from config file
+{Thu Jun 08 17:55:28 PDT 2017}[debug] Setting env value (CurrentRun_ALL.out.html) for key (OutputFileNameRpt) from config file
+{Thu Jun 08 17:55:28 PDT 2017}[debug] Setting env value (Windows XP) for key (selenium.webdriver.chrome.platform) from config file
+{Thu Jun 08 17:55:28 PDT 2017}[debug] Setting env value (5000) for key (projectB.waitTimeMilliSeconds) from config file
+{Thu Jun 08 17:55:28 PDT 2017}[debug] Setting env value (yes) for key (selenium.closeBrowserWin) from config file
+{Thu Jun 08 17:55:28 PDT 2017}[debug] Setting env value (yes) for key (selenium.maximizeBrowserWin) from config file
+**** setUpBeforeClassReportInit () Base ****
+{Thu Jun 08 17:55:28 PDT 2017}[debug]ReportUtilBase:: Default constructor
+**** Initialized ReportUtil in setUpBeforeClassReportInit () Base ****
+instantiating (com.brightplan.automation.utils.selenium.SeleniumUtilYelpMerchantDetailsTest)
+instantiated (com.brightplan.automation.utils.selenium.SeleniumUtilYelpMerchantDetailsTest)
+**** setUpBeforeClassExt() ****
+**** setUpBeforeClassExt() - setUpEnvBeforeClass ****
+**** setUp () Base ****
+{Thu Jun 08 17:55:28 PDT 2017}[debug]Entered init()..
+{Thu Jun 08 17:55:28 PDT 2017}[debug]Property (selenium.maximizeBrowserWin) set as (true)
+{Thu Jun 08 17:55:28 PDT 2017}[debug]Property (selenium.waitTimeLinkClick) set as (20000)
+{Thu Jun 08 17:55:28 PDT 2017}[debug]Property (selenium.waitTimePageLoad) set as (20000)
+{Thu Jun 08 17:55:28 PDT 2017}[debug]Property (selenium.closeBrowserWin) set as (true)
+{Thu Jun 08 17:55:28 PDT 2017}[debug]Selenium driver location taken as is from properties file
+{Thu Jun 08 17:55:28 PDT 2017}[debug]Property webdriver.chrome.driver from -> selenium.webdriver.chrome) set as (driver/chromedriver.exe)
+{Thu Jun 08 17:55:28 PDT 2017}[debug]*** init() setting driver platform as : Windows XP
+{Thu Jun 08 17:55:28 PDT 2017}[debug]*** init() setting driver version as : 47
+{Thu Jun 08 17:55:28 PDT 2017}[debug]Exiting init()..
+{Thu Jun 08 17:55:28 PDT 2017}[debug]init_driver:: Initializaing driver as is_bInitAtLogin() is true
+{Thu Jun 08 17:55:28 PDT 2017}[debug]init_driver:: Initializaing Driver, checking if is_remoteExecutionEnabled() is true ? : false
+{Thu Jun 08 17:55:28 PDT 2017}[debug]init_driver:: is_remoteExecutionEnabled is false, running in local mode
+{Thu Jun 08 17:55:28 PDT 2017}[debug]init_driver:: Initializaing ChromeDriver : true
+{Thu Jun 08 17:55:28 PDT 2017}[debug]init_driver::  using capabilities : Capabilities [{browserName=chrome, version=47, platform=Windows XP}]
+{Thu Jun 08 17:55:31 PDT 2017}[debug]Maximizing browser window..
+{Thu Jun 08 17:55:32 PDT 2017}[debug]init_driver:: Initialized ChromeDriver
+{Thu Jun 08 17:55:32 PDT 2017}[debug]Maximizing browser window..
+{Thu Jun 08 17:55:32 PDT 2017}[debug]SeleniumUtilHelper::navigateToUrl - Go to yelp.com
+{Thu Jun 08 17:55:49 PDT 2017}[debug]SeleniumUtilHelper::setFocusOnElement - Setting focus on Find
+{Thu Jun 08 17:55:49 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Setting focus on Find
+{Thu Jun 08 17:55:49 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:56:04 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:56:04 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 17:56:04 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 17:56:04 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 17:56:04 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:56:19 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:56:23 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElementWithValue - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 17:56:23 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 17:56:23 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 17:56:23 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:56:38 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:56:38 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Click Find button after setting search criteria
+{Thu Jun 08 17:56:38 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Click Find button after setting search criteria
+{Thu Jun 08 17:56:38 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Click Find button after setting search criteria
+{Thu Jun 08 17:56:38 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:56:53 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:56:53 PDT 2017}[debug]SeleniumUtilHelper::getElementText - Get total initial result count
+{Thu Jun 08 17:56:53 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Get total initial result count
+{Thu Jun 08 17:56:53 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:57:08 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:57:08 PDT 2017}[debug]Total Initial Result : Showing 1-10 of 3436
+{Thu Jun 08 17:57:08 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Thu Jun 08 17:57:08 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Thu Jun 08 17:57:08 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Expand All Filters to select parameters
+{Thu Jun 08 17:57:08 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:57:23 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:57:24 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting neighborhood element at index : 1
+{Thu Jun 08 17:57:24 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting neighborhood element at index : 1
+{Thu Jun 08 17:57:24 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting neighborhood element at index : 1
+{Thu Jun 08 17:57:24 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:57:39 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:57:39 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting neighborhood element at index : 3
+{Thu Jun 08 17:57:39 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting neighborhood element at index : 3
+{Thu Jun 08 17:57:39 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting neighborhood element at index : 3
+{Thu Jun 08 17:57:39 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:57:54 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:57:54 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - caught exception, message (no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="wrap"]/div[2]/div[1]/div/div[2]/div/div[2]/div[2]/div/div[2]/ul[1]/li[3]/label/input"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 34 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ANURAGK-LT5', ip: '10.3.39.237', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ANURAG~1.KUM\AppData\Local\Temp\scoped_dir6132_6241}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 1b2aa5db178d19d3f2029e3d6a67aa18
+*** Element info: {Using=xpath, value=//*[@id="wrap"]/div[2]/div[1]/div/div[2]/div/div[2]/div[2]/div/div[2]/ul[1]/li[3]/label/input})
+{Thu Jun 08 17:57:54 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - null element found, not performing operation
+{Thu Jun 08 17:57:54 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting distance element at index : 1
+{Thu Jun 08 17:57:54 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting distance element at index : 1
+{Thu Jun 08 17:57:54 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting distance element at index : 1
+{Thu Jun 08 17:57:54 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:58:09 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:58:09 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting distance element at index : 2
+{Thu Jun 08 17:58:09 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting distance element at index : 2
+{Thu Jun 08 17:58:09 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting distance element at index : 2
+{Thu Jun 08 17:58:09 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:58:24 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:58:24 PDT 2017}[debug]SeleniumUtilHelper::getElementText - Selecting price element at index : 
+{Thu Jun 08 17:58:24 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting price element at index : 
+{Thu Jun 08 17:58:24 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:58:39 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:58:39 PDT 2017}[debug]totalCount : (Showing 1-10 of 275)
+{Thu Jun 08 17:58:39 PDT 2017}[debug]Total times to loop : 10
+{Thu Jun 08 17:58:39 PDT 2017}[debug]Looking for (1) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 17:58:39 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:58:54 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:58:54 PDT 2017}[debug]Adding rating for index (1) tag (div) to list as (4.0 star rating)
+{Thu Jun 08 17:58:54 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:59:09 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:59:09 PDT 2017}[debug]Looking for link name (1) (Ad) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 17:59:09 PDT 2017}[debug]Looking for link url (1) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/span/a) with wait time (15000)
+{Thu Jun 08 17:59:09 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 17:59:24 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+captureScreenShot:: default file name for error : error_screenshot_TC0001_1496969964988.png
+{Thu Jun 08 17:59:25 PDT 2017}[debug]Entered tearDown()..
+{Thu Jun 08 17:59:25 PDT 2017}[debug]Closing browser window on exit..
+{Thu Jun 08 17:59:27 PDT 2017}[debug]Exiting tearDown()..
+*** tearDownExt ***
+
+{Thu Jun 08 17:59:27 PDT 2017}[debug]*** Start [tearDownExt()] HashMap (String) dump ***
+{Thu Jun 08 17:59:27 PDT 2017}[debug]
+key (Result_FinalCount) val (10)
+key (Test_CaseDataNum) val ()
+key (Result_FiltersUsed) val (Restaurant Pizza / Neighborhood 1,3 / Price 1,2)
+key (Test_CaseNum) val (TC0001)
+key (Test_Result) val (Fail)
+key (Test_CaseDesc) val (Restaurant search with neighborhood (1,3) and price filter (1,2))
+key (Test_CustomerName) val (Yelp)
+key (Result_InitialCount) val (Showing 1-10 of 3436)
+
+{Thu Jun 08 17:59:27 PDT 2017}[debug]*** End [tearDownExt()] HashMap (String) dump ***
+**** tearDown () Base ****
+**** setUp () Base ****
+{Thu Jun 08 17:59:27 PDT 2017}[debug]Entered init()..
+{Thu Jun 08 17:59:27 PDT 2017}[debug]Property (selenium.maximizeBrowserWin) set as (true)
+{Thu Jun 08 17:59:27 PDT 2017}[debug]Property (selenium.waitTimeLinkClick) set as (20000)
+{Thu Jun 08 17:59:27 PDT 2017}[debug]Property (selenium.waitTimePageLoad) set as (20000)
+{Thu Jun 08 17:59:27 PDT 2017}[debug]Property (selenium.closeBrowserWin) set as (true)
+{Thu Jun 08 17:59:27 PDT 2017}[debug]Selenium driver location taken as is from properties file
+{Thu Jun 08 17:59:27 PDT 2017}[debug]Property webdriver.chrome.driver from -> selenium.webdriver.chrome) set as (driver/chromedriver.exe)
+{Thu Jun 08 17:59:27 PDT 2017}[debug]*** init() setting driver platform as : Windows XP
+{Thu Jun 08 17:59:27 PDT 2017}[debug]*** init() setting driver version as : 47
+{Thu Jun 08 17:59:27 PDT 2017}[debug]Exiting init()..
+{Thu Jun 08 17:59:27 PDT 2017}[debug]init_driver:: Initializaing driver as is_bInitAtLogin() is true
+{Thu Jun 08 17:59:27 PDT 2017}[debug]init_driver:: Initializaing Driver, checking if is_remoteExecutionEnabled() is true ? : false
+{Thu Jun 08 17:59:27 PDT 2017}[debug]init_driver:: is_remoteExecutionEnabled is false, running in local mode
+{Thu Jun 08 17:59:27 PDT 2017}[debug]init_driver:: Initializaing ChromeDriver : true
+{Thu Jun 08 17:59:27 PDT 2017}[debug]init_driver::  using capabilities : Capabilities [{browserName=chrome, version=47, platform=Windows XP}]
+{Thu Jun 08 17:59:29 PDT 2017}[debug]Maximizing browser window..
+{Thu Jun 08 17:59:30 PDT 2017}[debug]init_driver:: Initialized ChromeDriver
+{Thu Jun 08 17:59:30 PDT 2017}[debug]Maximizing browser window..
+{Thu Jun 08 17:59:30 PDT 2017}[debug]SeleniumUtilHelper::navigateToUrl - Go to yelp.com
+{Thu Jun 08 17:59:47 PDT 2017}[debug]SeleniumUtilHelper::setFocusOnElement - Setting focus on Find
+{Thu Jun 08 17:59:47 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Setting focus on Find
+{Thu Jun 08 17:59:47 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:00:02 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:00:02 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:00:02 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:00:02 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:00:02 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:00:17 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:00:21 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElementWithValue - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:00:21 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:00:21 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:00:21 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:00:36 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:00:36 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Click Find button after setting search criteria
+{Thu Jun 08 18:00:36 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Click Find button after setting search criteria
+{Thu Jun 08 18:00:36 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Click Find button after setting search criteria
+{Thu Jun 08 18:00:36 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:00:51 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:00:51 PDT 2017}[debug]SeleniumUtilHelper::getElementText - Get total initial result count
+{Thu Jun 08 18:00:51 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Get total initial result count
+{Thu Jun 08 18:00:51 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:01:06 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:01:06 PDT 2017}[debug]Total Initial Result : Showing 1-10 of 3433
+{Thu Jun 08 18:01:06 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Thu Jun 08 18:01:06 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Thu Jun 08 18:01:06 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Expand All Filters to select parameters
+{Thu Jun 08 18:01:06 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:01:21 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:01:21 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting neighborhood element at index : 1
+{Thu Jun 08 18:01:21 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting neighborhood element at index : 1
+{Thu Jun 08 18:01:21 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting neighborhood element at index : 1
+{Thu Jun 08 18:01:21 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:01:36 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:01:37 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting neighborhood element at index : 3
+{Thu Jun 08 18:01:37 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting neighborhood element at index : 3
+{Thu Jun 08 18:01:37 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting neighborhood element at index : 3
+{Thu Jun 08 18:01:37 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:01:52 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:01:52 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - caught exception, message (no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="wrap"]/div[2]/div[1]/div/div[2]/div/div[2]/div[2]/div/div[2]/ul[1]/li[3]/label/input"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 59 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ANURAGK-LT5', ip: '10.3.39.237', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ANURAG~1.KUM\AppData\Local\Temp\scoped_dir4232_30366}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 868661eeee07f92a46198cbea995da8d
+*** Element info: {Using=xpath, value=//*[@id="wrap"]/div[2]/div[1]/div/div[2]/div/div[2]/div[2]/div/div[2]/ul[1]/li[3]/label/input})
+{Thu Jun 08 18:01:52 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - null element found, not performing operation
+{Thu Jun 08 18:01:52 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting distance element at index : 1
+{Thu Jun 08 18:01:52 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting distance element at index : 1
+{Thu Jun 08 18:01:52 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting distance element at index : 1
+{Thu Jun 08 18:01:52 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:02:07 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:02:07 PDT 2017}[debug]SeleniumUtilHelper::getElementText - Selecting price element at index : 
+{Thu Jun 08 18:02:07 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting price element at index : 
+{Thu Jun 08 18:02:07 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:02:22 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:02:22 PDT 2017}[debug]totalCount : (Showing 1-10 of 87)
+{Thu Jun 08 18:02:22 PDT 2017}[debug]Total times to loop : 10
+{Thu Jun 08 18:02:22 PDT 2017}[debug]Looking for (1) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:02:22 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:02:37 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:02:37 PDT 2017}[debug]Adding rating for index (1) tag (div) to list as (4.0 star rating)
+{Thu Jun 08 18:02:37 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:02:52 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:02:52 PDT 2017}[debug]Looking for link name (1) (Ad) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:02:52 PDT 2017}[debug]Looking for link url (1) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/span/a) with wait time (15000)
+{Thu Jun 08 18:02:52 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:03:07 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+captureScreenShot:: default file name for error : error_screenshot_TC0002_1496970187791.png
+{Thu Jun 08 18:03:07 PDT 2017}[debug]Entered tearDown()..
+{Thu Jun 08 18:03:07 PDT 2017}[debug]Closing browser window on exit..
+{Thu Jun 08 18:03:10 PDT 2017}[debug]Exiting tearDown()..
+*** tearDownExt ***
+
+{Thu Jun 08 18:03:10 PDT 2017}[debug]*** Start [tearDownExt()] HashMap (String) dump ***
+{Thu Jun 08 18:03:10 PDT 2017}[debug]
+key (Result_FinalCount) val (10)
+key (Test_CaseDataNum) val ()
+key (Result_FiltersUsed) val (Restaurant Pizza / Neighborhood 1,3 / Price 1)
+key (Test_CaseNum) val (TC0002)
+key (Test_Result) val (Fail)
+key (Test_CaseDesc) val (Restaurant search with neighborhood (1,3) and price filter (1))
+key (Test_CustomerName) val (Yelp)
+key (Result_InitialCount) val (Showing 1-10 of 3433)
+
+{Thu Jun 08 18:03:10 PDT 2017}[debug]*** End [tearDownExt()] HashMap (String) dump ***
+**** tearDown () Base ****
+**** setUp () Base ****
+{Thu Jun 08 18:03:10 PDT 2017}[debug]Entered init()..
+{Thu Jun 08 18:03:10 PDT 2017}[debug]Property (selenium.maximizeBrowserWin) set as (true)
+{Thu Jun 08 18:03:10 PDT 2017}[debug]Property (selenium.waitTimeLinkClick) set as (20000)
+{Thu Jun 08 18:03:10 PDT 2017}[debug]Property (selenium.waitTimePageLoad) set as (20000)
+{Thu Jun 08 18:03:10 PDT 2017}[debug]Property (selenium.closeBrowserWin) set as (true)
+{Thu Jun 08 18:03:10 PDT 2017}[debug]Selenium driver location taken as is from properties file
+{Thu Jun 08 18:03:10 PDT 2017}[debug]Property webdriver.chrome.driver from -> selenium.webdriver.chrome) set as (driver/chromedriver.exe)
+{Thu Jun 08 18:03:10 PDT 2017}[debug]*** init() setting driver platform as : Windows XP
+{Thu Jun 08 18:03:10 PDT 2017}[debug]*** init() setting driver version as : 47
+{Thu Jun 08 18:03:10 PDT 2017}[debug]Exiting init()..
+{Thu Jun 08 18:03:10 PDT 2017}[debug]init_driver:: Initializaing driver as is_bInitAtLogin() is true
+{Thu Jun 08 18:03:10 PDT 2017}[debug]init_driver:: Initializaing Driver, checking if is_remoteExecutionEnabled() is true ? : false
+{Thu Jun 08 18:03:10 PDT 2017}[debug]init_driver:: is_remoteExecutionEnabled is false, running in local mode
+{Thu Jun 08 18:03:10 PDT 2017}[debug]init_driver:: Initializaing ChromeDriver : true
+{Thu Jun 08 18:03:10 PDT 2017}[debug]init_driver::  using capabilities : Capabilities [{browserName=chrome, version=47, platform=Windows XP}]
+{Thu Jun 08 18:03:12 PDT 2017}[debug]Maximizing browser window..
+{Thu Jun 08 18:03:13 PDT 2017}[debug]init_driver:: Initialized ChromeDriver
+{Thu Jun 08 18:03:13 PDT 2017}[debug]Maximizing browser window..
+{Thu Jun 08 18:03:13 PDT 2017}[debug]SeleniumUtilHelper::navigateToUrl - Go to yelp.com
+{Thu Jun 08 18:03:30 PDT 2017}[debug]SeleniumUtilHelper::setFocusOnElement - Setting focus on Find
+{Thu Jun 08 18:03:30 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Setting focus on Find
+{Thu Jun 08 18:03:30 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:03:45 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:03:45 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:03:45 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:03:45 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:03:45 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:04:00 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:04:04 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElementWithValue - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:04:04 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:04:04 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:04:04 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:04:19 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:04:19 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Click Find button after setting search criteria
+{Thu Jun 08 18:04:19 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Click Find button after setting search criteria
+{Thu Jun 08 18:04:19 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Click Find button after setting search criteria
+{Thu Jun 08 18:04:19 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:04:34 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:04:35 PDT 2017}[debug]SeleniumUtilHelper::getElementText - Get total initial result count
+{Thu Jun 08 18:04:35 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Get total initial result count
+{Thu Jun 08 18:04:35 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:04:50 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:04:50 PDT 2017}[debug]Total Initial Result : Showing 1-10 of 3434
+{Thu Jun 08 18:04:50 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Thu Jun 08 18:04:50 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Thu Jun 08 18:04:50 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Expand All Filters to select parameters
+{Thu Jun 08 18:04:50 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:05:05 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:05:05 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting neighborhood element at index : 1
+{Thu Jun 08 18:05:05 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting neighborhood element at index : 1
+{Thu Jun 08 18:05:05 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting neighborhood element at index : 1
+{Thu Jun 08 18:05:05 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:05:20 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:05:20 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting distance element at index : 2
+{Thu Jun 08 18:05:20 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting distance element at index : 2
+{Thu Jun 08 18:05:20 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting distance element at index : 2
+{Thu Jun 08 18:05:20 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:05:35 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:05:35 PDT 2017}[debug]SeleniumUtilHelper::getElementText - Selecting price element at index : 
+{Thu Jun 08 18:05:35 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting price element at index : 
+{Thu Jun 08 18:05:35 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:05:50 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:05:50 PDT 2017}[debug]totalCount : (Showing 1-10 of 181)
+{Thu Jun 08 18:05:50 PDT 2017}[debug]Total times to loop : 10
+{Thu Jun 08 18:05:50 PDT 2017}[debug]Looking for (1) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:05:50 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:06:05 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:06:05 PDT 2017}[debug]Adding rating for index (1) tag (div) to list as (4.0 star rating)
+{Thu Jun 08 18:06:05 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:06:20 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:06:21 PDT 2017}[debug]Looking for link name (1) (Ad) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:06:21 PDT 2017}[debug]Looking for link url (1) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/span/a) with wait time (15000)
+{Thu Jun 08 18:06:21 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:06:36 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+captureScreenShot:: default file name for error : error_screenshot_TC0003_1496970396278.png
+{Thu Jun 08 18:06:36 PDT 2017}[debug]Entered tearDown()..
+{Thu Jun 08 18:06:36 PDT 2017}[debug]Closing browser window on exit..
+{Thu Jun 08 18:06:38 PDT 2017}[debug]Exiting tearDown()..
+*** tearDownExt ***
+
+{Thu Jun 08 18:06:38 PDT 2017}[debug]*** Start [tearDownExt()] HashMap (String) dump ***
+{Thu Jun 08 18:06:38 PDT 2017}[debug]
+key (Result_FinalCount) val (10)
+key (Test_CaseDataNum) val ()
+key (Result_FiltersUsed) val (Restaurant Pizza / Neighborhood 1 / Price 2)
+key (Test_CaseNum) val (TC0003)
+key (Test_Result) val (Fail)
+key (Test_CaseDesc) val (Restaurant search with neighborhood (1) and price filter (2))
+key (Test_CustomerName) val (Yelp)
+key (Result_InitialCount) val (Showing 1-10 of 3434)
+
+{Thu Jun 08 18:06:38 PDT 2017}[debug]*** End [tearDownExt()] HashMap (String) dump ***
+**** tearDown () Base ****
+**** setUp () Base ****
+{Thu Jun 08 18:06:38 PDT 2017}[debug]Entered init()..
+{Thu Jun 08 18:06:38 PDT 2017}[debug]Property (selenium.maximizeBrowserWin) set as (true)
+{Thu Jun 08 18:06:38 PDT 2017}[debug]Property (selenium.waitTimeLinkClick) set as (20000)
+{Thu Jun 08 18:06:38 PDT 2017}[debug]Property (selenium.waitTimePageLoad) set as (20000)
+{Thu Jun 08 18:06:38 PDT 2017}[debug]Property (selenium.closeBrowserWin) set as (true)
+{Thu Jun 08 18:06:38 PDT 2017}[debug]Selenium driver location taken as is from properties file
+{Thu Jun 08 18:06:38 PDT 2017}[debug]Property webdriver.chrome.driver from -> selenium.webdriver.chrome) set as (driver/chromedriver.exe)
+{Thu Jun 08 18:06:38 PDT 2017}[debug]*** init() setting driver platform as : Windows XP
+{Thu Jun 08 18:06:38 PDT 2017}[debug]*** init() setting driver version as : 47
+{Thu Jun 08 18:06:38 PDT 2017}[debug]Exiting init()..
+{Thu Jun 08 18:06:38 PDT 2017}[debug]init_driver:: Initializaing driver as is_bInitAtLogin() is true
+{Thu Jun 08 18:06:38 PDT 2017}[debug]init_driver:: Initializaing Driver, checking if is_remoteExecutionEnabled() is true ? : false
+{Thu Jun 08 18:06:38 PDT 2017}[debug]init_driver:: is_remoteExecutionEnabled is false, running in local mode
+{Thu Jun 08 18:06:38 PDT 2017}[debug]init_driver:: Initializaing ChromeDriver : true
+{Thu Jun 08 18:06:38 PDT 2017}[debug]init_driver::  using capabilities : Capabilities [{browserName=chrome, version=47, platform=Windows XP}]
+{Thu Jun 08 18:06:40 PDT 2017}[debug]Maximizing browser window..
+{Thu Jun 08 18:06:42 PDT 2017}[debug]init_driver:: Initialized ChromeDriver
+{Thu Jun 08 18:06:42 PDT 2017}[debug]Maximizing browser window..
+{Thu Jun 08 18:06:42 PDT 2017}[debug]SeleniumUtilHelper::navigateToUrl - Go to yelp.com
+{Thu Jun 08 18:06:59 PDT 2017}[debug]SeleniumUtilHelper::setFocusOnElement - Setting focus on Find
+{Thu Jun 08 18:06:59 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Setting focus on Find
+{Thu Jun 08 18:06:59 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:07:14 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:07:14 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:07:14 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:07:14 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:07:14 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:07:29 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:07:32 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElementWithValue - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:07:32 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:07:32 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:07:32 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:07:47 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:07:47 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Click Find button after setting search criteria
+{Thu Jun 08 18:07:47 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Click Find button after setting search criteria
+{Thu Jun 08 18:07:47 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Click Find button after setting search criteria
+{Thu Jun 08 18:07:47 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:08:02 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:08:02 PDT 2017}[debug]SeleniumUtilHelper::getElementText - Get total initial result count
+{Thu Jun 08 18:08:02 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Get total initial result count
+{Thu Jun 08 18:08:02 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:08:17 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:08:18 PDT 2017}[debug]Total Initial Result : Showing 1-10 of 3434
+{Thu Jun 08 18:08:18 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Thu Jun 08 18:08:18 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Thu Jun 08 18:08:18 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Expand All Filters to select parameters
+{Thu Jun 08 18:08:18 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:08:33 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:08:33 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting neighborhood element at index : 1
+{Thu Jun 08 18:08:33 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting neighborhood element at index : 1
+{Thu Jun 08 18:08:33 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting neighborhood element at index : 1
+{Thu Jun 08 18:08:33 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:08:48 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:08:48 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting distance element at index : 1
+{Thu Jun 08 18:08:48 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting distance element at index : 1
+{Thu Jun 08 18:08:48 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting distance element at index : 1
+{Thu Jun 08 18:08:48 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:09:03 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:09:03 PDT 2017}[debug]SeleniumUtilHelper::getElementText - Selecting price element at index : 
+{Thu Jun 08 18:09:03 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting price element at index : 
+{Thu Jun 08 18:09:03 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:09:18 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:09:18 PDT 2017}[debug]totalCount : (Showing 1-10 of 87)
+{Thu Jun 08 18:09:18 PDT 2017}[debug]Total times to loop : 10
+{Thu Jun 08 18:09:18 PDT 2017}[debug]Looking for (1) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:09:18 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:09:33 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:09:33 PDT 2017}[debug]Adding rating for index (1) tag (div) to list as (4.0 star rating)
+{Thu Jun 08 18:09:33 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:09:48 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:09:48 PDT 2017}[debug]Looking for link name (1) (Ad) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:09:48 PDT 2017}[debug]Looking for link url (1) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/span/a) with wait time (15000)
+{Thu Jun 08 18:09:48 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:10:03 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+captureScreenShot:: default file name for error : error_screenshot_TC0004_1496970603982.png
+{Thu Jun 08 18:10:03 PDT 2017}[debug]Entered tearDown()..
+{Thu Jun 08 18:10:03 PDT 2017}[debug]Closing browser window on exit..
+{Thu Jun 08 18:10:06 PDT 2017}[debug]Exiting tearDown()..
+*** tearDownExt ***
+
+{Thu Jun 08 18:10:06 PDT 2017}[debug]*** Start [tearDownExt()] HashMap (String) dump ***
+{Thu Jun 08 18:10:06 PDT 2017}[debug]
+key (Result_FinalCount) val (10)
+key (Test_CaseDataNum) val ()
+key (Result_FiltersUsed) val (Restaurant Pizza / Neighborhood 1 / Price 1)
+key (Test_CaseNum) val (TC0004)
+key (Test_Result) val (Fail)
+key (Test_CaseDesc) val (Restaurant search with neighborhood (1) and price filter (1))
+key (Test_CustomerName) val (Yelp)
+key (Result_InitialCount) val (Showing 1-10 of 3434)
+
+{Thu Jun 08 18:10:06 PDT 2017}[debug]*** End [tearDownExt()] HashMap (String) dump ***
+**** tearDown () Base ****
+**** setUp () Base ****
+{Thu Jun 08 18:10:06 PDT 2017}[debug]Entered init()..
+{Thu Jun 08 18:10:06 PDT 2017}[debug]Property (selenium.maximizeBrowserWin) set as (true)
+{Thu Jun 08 18:10:06 PDT 2017}[debug]Property (selenium.waitTimeLinkClick) set as (20000)
+{Thu Jun 08 18:10:06 PDT 2017}[debug]Property (selenium.waitTimePageLoad) set as (20000)
+{Thu Jun 08 18:10:06 PDT 2017}[debug]Property (selenium.closeBrowserWin) set as (true)
+{Thu Jun 08 18:10:06 PDT 2017}[debug]Selenium driver location taken as is from properties file
+{Thu Jun 08 18:10:06 PDT 2017}[debug]Property webdriver.chrome.driver from -> selenium.webdriver.chrome) set as (driver/chromedriver.exe)
+{Thu Jun 08 18:10:06 PDT 2017}[debug]*** init() setting driver platform as : Windows XP
+{Thu Jun 08 18:10:06 PDT 2017}[debug]*** init() setting driver version as : 47
+{Thu Jun 08 18:10:06 PDT 2017}[debug]Exiting init()..
+{Thu Jun 08 18:10:06 PDT 2017}[debug]init_driver:: Initializaing driver as is_bInitAtLogin() is true
+{Thu Jun 08 18:10:06 PDT 2017}[debug]init_driver:: Initializaing Driver, checking if is_remoteExecutionEnabled() is true ? : false
+{Thu Jun 08 18:10:06 PDT 2017}[debug]init_driver:: is_remoteExecutionEnabled is false, running in local mode
+{Thu Jun 08 18:10:06 PDT 2017}[debug]init_driver:: Initializaing ChromeDriver : true
+{Thu Jun 08 18:10:06 PDT 2017}[debug]init_driver::  using capabilities : Capabilities [{browserName=chrome, version=47, platform=Windows XP}]
+{Thu Jun 08 18:10:08 PDT 2017}[debug]Maximizing browser window..
+{Thu Jun 08 18:10:09 PDT 2017}[debug]init_driver:: Initialized ChromeDriver
+{Thu Jun 08 18:10:09 PDT 2017}[debug]Maximizing browser window..
+{Thu Jun 08 18:10:09 PDT 2017}[debug]SeleniumUtilHelper::navigateToUrl - Go to yelp.com
+{Thu Jun 08 18:10:26 PDT 2017}[debug]SeleniumUtilHelper::setFocusOnElement - Setting focus on Find
+{Thu Jun 08 18:10:26 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Setting focus on Find
+{Thu Jun 08 18:10:26 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:10:41 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:10:42 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:10:42 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:10:42 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:10:42 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:10:57 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:11:00 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElementWithValue - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:11:00 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:11:00 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:11:00 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:11:15 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:11:15 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Click Find button after setting search criteria
+{Thu Jun 08 18:11:15 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Click Find button after setting search criteria
+{Thu Jun 08 18:11:15 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Click Find button after setting search criteria
+{Thu Jun 08 18:11:15 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:11:30 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:11:30 PDT 2017}[debug]SeleniumUtilHelper::getElementText - Get total initial result count
+{Thu Jun 08 18:11:30 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Get total initial result count
+{Thu Jun 08 18:11:30 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:11:45 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:11:45 PDT 2017}[debug]Total Initial Result : Showing 1-10 of 3435
+{Thu Jun 08 18:11:45 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Thu Jun 08 18:11:45 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Thu Jun 08 18:11:45 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Expand All Filters to select parameters
+{Thu Jun 08 18:11:45 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:12:00 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:12:01 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting neighborhood element at index : 1
+{Thu Jun 08 18:12:01 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting neighborhood element at index : 1
+{Thu Jun 08 18:12:01 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting neighborhood element at index : 1
+{Thu Jun 08 18:12:01 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:12:16 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:12:16 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting distance element at index : 3
+{Thu Jun 08 18:12:16 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting distance element at index : 3
+{Thu Jun 08 18:12:16 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting distance element at index : 3
+{Thu Jun 08 18:12:16 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:12:31 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:12:31 PDT 2017}[debug]SeleniumUtilHelper::getElementText - Selecting price element at index : 
+{Thu Jun 08 18:12:31 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting price element at index : 
+{Thu Jun 08 18:12:31 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:12:46 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:12:46 PDT 2017}[debug]totalCount : (Showing 1-10 of 316)
+{Thu Jun 08 18:12:46 PDT 2017}[debug]Total times to loop : 10
+{Thu Jun 08 18:12:46 PDT 2017}[debug]Looking for (1) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:12:46 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:13:01 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:13:01 PDT 2017}[debug]Adding rating for index (1) tag (div) to list as (4.0 star rating)
+{Thu Jun 08 18:13:01 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:13:16 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:13:16 PDT 2017}[debug]Looking for link name (1) (Ad) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:13:16 PDT 2017}[debug]Looking for link url (1) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/span/a) with wait time (15000)
+{Thu Jun 08 18:13:16 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:13:31 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+captureScreenShot:: default file name for error : error_screenshot_TC0005_1496970811904.png
+{Thu Jun 08 18:13:31 PDT 2017}[debug]Entered tearDown()..
+{Thu Jun 08 18:13:31 PDT 2017}[debug]Closing browser window on exit..
+{Thu Jun 08 18:13:34 PDT 2017}[debug]Exiting tearDown()..
+*** tearDownExt ***
+
+{Thu Jun 08 18:13:34 PDT 2017}[debug]*** Start [tearDownExt()] HashMap (String) dump ***
+{Thu Jun 08 18:13:34 PDT 2017}[debug]
+key (Result_FinalCount) val (10)
+key (Test_CaseDataNum) val ()
+key (Result_FiltersUsed) val (Restaurant Pizza / Neighborhood 1 / Distance 3)
+key (Test_CaseNum) val (TC0005)
+key (Test_Result) val (Fail)
+key (Test_CaseDesc) val (Restaurant search with neighborhood (1) and distance filter (3))
+key (Test_CustomerName) val (Yelp)
+key (Result_InitialCount) val (Showing 1-10 of 3435)
+
+{Thu Jun 08 18:13:34 PDT 2017}[debug]*** End [tearDownExt()] HashMap (String) dump ***
+**** tearDown () Base ****
+**** setUp () Base ****
+{Thu Jun 08 18:13:34 PDT 2017}[debug]Entered init()..
+{Thu Jun 08 18:13:34 PDT 2017}[debug]Property (selenium.maximizeBrowserWin) set as (true)
+{Thu Jun 08 18:13:34 PDT 2017}[debug]Property (selenium.waitTimeLinkClick) set as (20000)
+{Thu Jun 08 18:13:34 PDT 2017}[debug]Property (selenium.waitTimePageLoad) set as (20000)
+{Thu Jun 08 18:13:34 PDT 2017}[debug]Property (selenium.closeBrowserWin) set as (true)
+{Thu Jun 08 18:13:34 PDT 2017}[debug]Selenium driver location taken as is from properties file
+{Thu Jun 08 18:13:34 PDT 2017}[debug]Property webdriver.chrome.driver from -> selenium.webdriver.chrome) set as (driver/chromedriver.exe)
+{Thu Jun 08 18:13:34 PDT 2017}[debug]*** init() setting driver platform as : Windows XP
+{Thu Jun 08 18:13:34 PDT 2017}[debug]*** init() setting driver version as : 47
+{Thu Jun 08 18:13:34 PDT 2017}[debug]Exiting init()..
+{Thu Jun 08 18:13:34 PDT 2017}[debug]init_driver:: Initializaing driver as is_bInitAtLogin() is true
+{Thu Jun 08 18:13:34 PDT 2017}[debug]init_driver:: Initializaing Driver, checking if is_remoteExecutionEnabled() is true ? : false
+{Thu Jun 08 18:13:34 PDT 2017}[debug]init_driver:: is_remoteExecutionEnabled is false, running in local mode
+{Thu Jun 08 18:13:34 PDT 2017}[debug]init_driver:: Initializaing ChromeDriver : true
+{Thu Jun 08 18:13:34 PDT 2017}[debug]init_driver::  using capabilities : Capabilities [{browserName=chrome, version=47, platform=Windows XP}]
+{Thu Jun 08 18:13:36 PDT 2017}[debug]Maximizing browser window..
+{Thu Jun 08 18:13:37 PDT 2017}[debug]init_driver:: Initialized ChromeDriver
+{Thu Jun 08 18:13:37 PDT 2017}[debug]Maximizing browser window..
+{Thu Jun 08 18:13:37 PDT 2017}[debug]SeleniumUtilHelper::navigateToUrl - Go to yelp.com
+{Thu Jun 08 18:13:54 PDT 2017}[debug]SeleniumUtilHelper::setFocusOnElement - Setting focus on Find
+{Thu Jun 08 18:13:54 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Setting focus on Find
+{Thu Jun 08 18:13:54 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:14:09 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:14:09 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:14:09 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:14:09 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:14:09 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:14:24 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:14:28 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElementWithValue - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:14:28 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:14:28 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:14:28 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:14:43 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:14:43 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Click Find button after setting search criteria
+{Thu Jun 08 18:14:43 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Click Find button after setting search criteria
+{Thu Jun 08 18:14:43 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Click Find button after setting search criteria
+{Thu Jun 08 18:14:43 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:14:58 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:14:58 PDT 2017}[debug]SeleniumUtilHelper::getElementText - Get total initial result count
+{Thu Jun 08 18:14:58 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Get total initial result count
+{Thu Jun 08 18:14:58 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:15:13 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:15:13 PDT 2017}[debug]Total Initial Result : Showing 1-10 of 3436
+{Thu Jun 08 18:15:13 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Thu Jun 08 18:15:13 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Thu Jun 08 18:15:13 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Expand All Filters to select parameters
+{Thu Jun 08 18:15:13 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:15:28 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:15:28 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting neighborhood element at index : 1
+{Thu Jun 08 18:15:28 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting neighborhood element at index : 1
+{Thu Jun 08 18:15:28 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting neighborhood element at index : 1
+{Thu Jun 08 18:15:28 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:15:43 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:15:44 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting distance element at index : 1
+{Thu Jun 08 18:15:44 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting distance element at index : 1
+{Thu Jun 08 18:15:44 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting distance element at index : 1
+{Thu Jun 08 18:15:44 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:15:59 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:15:59 PDT 2017}[debug]SeleniumUtilHelper::getElementText - Selecting price element at index : 
+{Thu Jun 08 18:15:59 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting price element at index : 
+{Thu Jun 08 18:15:59 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:16:14 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:16:14 PDT 2017}[debug]totalCount : (Showing 1-10 of 2230)
+{Thu Jun 08 18:16:14 PDT 2017}[debug]Total times to loop : 10
+{Thu Jun 08 18:16:14 PDT 2017}[debug]Looking for (1) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:16:14 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:16:29 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:16:29 PDT 2017}[debug]Adding rating for index (1) tag (div) to list as (4.5 star rating)
+{Thu Jun 08 18:16:29 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:16:44 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:16:44 PDT 2017}[debug]Looking for link name (1) (1. Golden Boy Pizza) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:16:44 PDT 2017}[debug]Looking for link url (1) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/span/a) with wait time (15000)
+{Thu Jun 08 18:16:44 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:16:59 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:16:59 PDT 2017}[debug]Looking for (2) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[2]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:16:59 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:17:14 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:17:14 PDT 2017}[debug]Adding rating for index (2) tag (div) to list as (4.5 star rating)
+{Thu Jun 08 18:17:14 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:17:29 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:17:29 PDT 2017}[debug]Looking for link name (2) (2. Benu) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[2]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:17:29 PDT 2017}[debug]Looking for (3) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[3]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:17:29 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:17:44 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:17:44 PDT 2017}[debug]Adding rating for index (3) tag (div) to list as (4.0 star rating)
+{Thu Jun 08 18:17:44 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:17:59 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:18:00 PDT 2017}[debug]Looking for link name (3) (3. Delarosa) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[3]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:18:00 PDT 2017}[debug]Looking for (4) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[4]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:18:00 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:18:15 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:18:15 PDT 2017}[debug]Adding rating for index (4) tag (div) to list as (4.0 star rating)
+{Thu Jun 08 18:18:15 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:18:30 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:18:30 PDT 2017}[debug]Looking for link name (4) (4. Soma Pizza) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[4]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:18:30 PDT 2017}[debug]Looking for (5) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[5]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:18:30 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:18:45 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:18:45 PDT 2017}[debug]Adding rating for index (5) tag (div) to list as (4.0 star rating)
+{Thu Jun 08 18:18:45 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:19:00 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:19:00 PDT 2017}[debug]Looking for link name (5) (5. Tony’s Pizza Napoletana) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[5]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:19:00 PDT 2017}[debug]Looking for (6) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[6]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:19:00 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:19:15 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:19:15 PDT 2017}[debug]Adding rating for index (6) tag (div) to list as (4.5 star rating)
+{Thu Jun 08 18:19:15 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:19:30 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:19:30 PDT 2017}[debug]Looking for link name (6) (6. Montesacro Pinseria-Enoteca) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[6]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:19:30 PDT 2017}[debug]Looking for (7) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[7]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:19:30 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:19:45 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:19:45 PDT 2017}[debug]Adding rating for index (7) tag (div) to list as (4.0 star rating)
+{Thu Jun 08 18:19:45 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:20:00 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:20:00 PDT 2017}[debug]Looking for link name (7) (7. Uncle Vito’s Pizza) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[7]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:20:00 PDT 2017}[debug]Looking for (8) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[8]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:20:00 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:20:15 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:20:15 PDT 2017}[debug]Adding rating for index (8) tag (div) to list as (4.0 star rating)
+{Thu Jun 08 18:20:15 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:20:30 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:20:30 PDT 2017}[debug]Looking for link name (8) (8. Zero Zero) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[8]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:20:30 PDT 2017}[debug]Looking for (9) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[9]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:20:30 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:20:45 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:20:46 PDT 2017}[debug]Adding rating for index (9) tag (div) to list as (4.0 star rating)
+{Thu Jun 08 18:20:46 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:21:01 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:21:01 PDT 2017}[debug]Looking for link name (9) (9. Locanda) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[9]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:21:01 PDT 2017}[debug]Looking for (10) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[10]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:21:01 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:21:16 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:21:16 PDT 2017}[debug]Adding rating for index (10) tag (div) to list as (4.5 star rating)
+{Thu Jun 08 18:21:16 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:21:31 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:21:31 PDT 2017}[debug]Looking for link name (10) (10. Il Casaro Pizzeria & Mozzarella Bar) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[10]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:21:31 PDT 2017}[debug][4.5 star rating, 4.5 star rating, 4.0 star rating, 4.0 star rating, 4.0 star rating, 4.5 star rating, 4.0 star rating, 4.0 star rating, 4.0 star rating, 4.5 star rating]
+{Thu Jun 08 18:21:31 PDT 2017}[debug]{1. Golden Boy Pizza=4.5 star rating, 2. Benu=4.5 star rating, 3. Delarosa=4.0 star rating, 4. Soma Pizza=4.0 star rating, 5. Tony’s Pizza Napoletana=4.0 star rating, 6. Montesacro Pinseria-Enoteca=4.5 star rating, 7. Uncle Vito’s Pizza=4.0 star rating, 8. Zero Zero=4.0 star rating, 9. Locanda=4.0 star rating, 10. Il Casaro Pizzeria & Mozzarella Bar=4.5 star rating}
+{Thu Jun 08 18:21:31 PDT 2017}[debug]
+
+
+{Thu Jun 08 18:21:31 PDT 2017}[debug]>> Step 10. Click and expand the first result from the search results
+
+Clicking on firstElem : null
+{Thu Jun 08 18:21:34 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got key constructed as (merchant.Address)
+{Thu Jun 08 18:21:34 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got keyRed constructed as (//*[@id="wrap"]/div[2]/div/div[1]/div/div[4]/div[1]/div/div[2]/ul/li[1]/div/strong/address)
+{Thu Jun 08 18:21:34 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:21:35 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:21:35 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Saving key (merchant.Address) value (542 Green St
+San Francisco, CA 94133)
+{Thu Jun 08 18:21:35 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got key constructed as (merchant.Phone)
+{Thu Jun 08 18:21:35 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got keyRed constructed as (//*[@id="wrap"]/div[2]/div/div[1]/div/div[4]/div[1]/div/div[2]/ul/li[3]/span[3])
+{Thu Jun 08 18:21:35 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:21:36 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:21:36 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Saving key (merchant.Phone) value ((415) 982-9738)
+{Thu Jun 08 18:21:36 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got key constructed as (merchant.Website)
+{Thu Jun 08 18:21:36 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got keyRed constructed as (//*[@id="wrap"]/div[2]/div/div[1]/div/div[4]/div[1]/div/div[2]/ul/li[4]/span[2]/a)
+{Thu Jun 08 18:21:36 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:21:37 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:21:37 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Saving key (merchant.Website) value (goldenboypizza.com)
+{Thu Jun 08 18:21:37 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got key constructed as (merchant.Review.1)
+{Thu Jun 08 18:21:37 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got keyRed constructed as (//*[@id="super-container"]/div/div/div[1]/div[1]/div[1]/ul/li[1]/div[2]/p)
+{Thu Jun 08 18:21:37 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:21:38 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:21:38 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Saving key (merchant.Review.1) value (“It's a low-key pizza place with a pretty decent beer selection and plenty of wall graffiti to zone out at whilst devouring slice by slice.” in 1380 reviews)
+{Thu Jun 08 18:21:38 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got key constructed as (merchant.Review.2)
+{Thu Jun 08 18:21:38 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got keyRed constructed as (//*[@id="super-container"]/div/div/div[1]/div[1]/div[1]/ul/li[2]/div[2]/p)
+{Thu Jun 08 18:21:38 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:21:39 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:21:39 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Saving key (merchant.Review.2) value (“On our first visit we ordered a slice of cheese, pepperoni, veggie and the garlic clam.” in 347 reviews)
+{Thu Jun 08 18:21:39 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got key constructed as (merchant.Review.3)
+{Thu Jun 08 18:21:39 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got keyRed constructed as (//*[@id="super-container"]/div/div/div[1]/div[1]/div[1]/ul/li[3]/div[2]/p)
+{Thu Jun 08 18:21:39 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:21:40 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:21:40 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Saving key (merchant.Review.3) value (“Park farther away and walk is my best bet, but if you brave enough u might be able find parking around golden boy.” in 71 reviews)
+{Thu Jun 08 18:21:40 PDT 2017}[debug]*** Start [Merchant Details] HashMap (String) dump ***
+{Thu Jun 08 18:21:40 PDT 2017}[debug]
+key (merchant.Address) val (542 Green St
+San Francisco, CA 94133)
+key (merchant.Phone) val ((415) 982-9738)
+key (merchant.Website) val (goldenboypizza.com)
+key (merchant.Review.1) val (“It's a low-key pizza place with a pretty decent beer selection and plenty of wall graffiti to zone out at whilst devouring slice by slice.” in 1380 reviews)
+key (merchant.Review.2) val (“On our first visit we ordered a slice of cheese, pepperoni, veggie and the garlic clam.” in 347 reviews)
+key (merchant.Review.3) val (“Park farther away and walk is my best bet, but if you brave enough u might be able find parking around golden boy.” in 71 reviews)
+
+{Thu Jun 08 18:21:40 PDT 2017}[debug]*** End [Merchant Details] HashMap (String) dump ***
+*** tearDownExt ***
+
+{Thu Jun 08 18:21:40 PDT 2017}[debug]*** Start [tearDownExt()] HashMap (String) dump ***
+{Thu Jun 08 18:21:40 PDT 2017}[debug]
+key (Result_FinalCount) val (10)
+key (Test_CaseDataNum) val ()
+key (Result_MerchantAddress) val (542 Green St
+San Francisco, CA 94133)
+key (Result_FiltersUsed) val (Restaurant Pizza / Neighborhood 1 / Distance 1)
+key (Test_Result) val (Pass)
+key (Result_MerchantName) val ()
+key (Result_InitialCount) val (Showing 1-10 of 3436)
+key (Result_MerchantWebSite) val ()
+key (Result_Review1) val (“It's a low-key pizza place with a pretty decent beer selection and plenty of wall graffiti to zone out at whilst devouring slice by slice.” in 1380 reviews)
+key (Test_CaseNum) val (TC0006)
+key (Result_MerchantPhone) val ((415) 982-9738)
+key (Test_CaseDesc) val (Restaurant search with neighborhood (1) and distance filter (1))
+key (Result_Review3) val (“Park farther away and walk is my best bet, but if you brave enough u might be able find parking around golden boy.” in 71 reviews)
+key (Test_CustomerName) val (Yelp)
+key (Result_Review2) val (“On our first visit we ordered a slice of cheese, pepperoni, veggie and the garlic clam.” in 347 reviews)
+
+{Thu Jun 08 18:21:40 PDT 2017}[debug]*** End [tearDownExt()] HashMap (String) dump ***
+**** tearDown () Base ****
+**** setUp () Base ****
+{Thu Jun 08 18:21:40 PDT 2017}[debug]Entered init()..
+{Thu Jun 08 18:21:40 PDT 2017}[debug]Property (selenium.maximizeBrowserWin) set as (true)
+{Thu Jun 08 18:21:40 PDT 2017}[debug]Property (selenium.waitTimeLinkClick) set as (20000)
+{Thu Jun 08 18:21:40 PDT 2017}[debug]Property (selenium.waitTimePageLoad) set as (20000)
+{Thu Jun 08 18:21:40 PDT 2017}[debug]Property (selenium.closeBrowserWin) set as (true)
+{Thu Jun 08 18:21:40 PDT 2017}[debug]Selenium driver location taken as is from properties file
+{Thu Jun 08 18:21:40 PDT 2017}[debug]Property webdriver.chrome.driver from -> selenium.webdriver.chrome) set as (driver/chromedriver.exe)
+{Thu Jun 08 18:21:40 PDT 2017}[debug]*** init() setting driver platform as : Windows XP
+{Thu Jun 08 18:21:40 PDT 2017}[debug]*** init() setting driver version as : 47
+{Thu Jun 08 18:21:40 PDT 2017}[debug]Exiting init()..
+{Thu Jun 08 18:21:40 PDT 2017}[debug]init_driver:: Initializaing driver as is_bInitAtLogin() is true
+{Thu Jun 08 18:21:40 PDT 2017}[debug]init_driver:: Initializaing Driver, checking if is_remoteExecutionEnabled() is true ? : false
+{Thu Jun 08 18:21:40 PDT 2017}[debug]init_driver:: is_remoteExecutionEnabled is false, running in local mode
+{Thu Jun 08 18:21:40 PDT 2017}[debug]init_driver:: Initializaing ChromeDriver : true
+{Thu Jun 08 18:21:40 PDT 2017}[debug]init_driver::  using capabilities : Capabilities [{browserName=chrome, version=47, platform=Windows XP}]
+{Thu Jun 08 18:21:43 PDT 2017}[debug]Maximizing browser window..
+{Thu Jun 08 18:21:44 PDT 2017}[debug]init_driver:: Initialized ChromeDriver
+{Thu Jun 08 18:21:44 PDT 2017}[debug]Maximizing browser window..
+{Thu Jun 08 18:21:44 PDT 2017}[debug]SeleniumUtilHelper::navigateToUrl - Go to yelp.com
+{Thu Jun 08 18:22:01 PDT 2017}[debug]SeleniumUtilHelper::setFocusOnElement - Setting focus on Find
+{Thu Jun 08 18:22:01 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Setting focus on Find
+{Thu Jun 08 18:22:01 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:22:16 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:22:16 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:22:16 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:22:16 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:22:16 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:22:31 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:22:34 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElementWithValue - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:22:34 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:22:34 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Select 'Restaurants' in the dropdown box in Find
+{Thu Jun 08 18:22:34 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:22:49 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:22:49 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Click Find button after setting search criteria
+{Thu Jun 08 18:22:49 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Click Find button after setting search criteria
+{Thu Jun 08 18:22:49 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Click Find button after setting search criteria
+{Thu Jun 08 18:22:49 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:23:04 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:23:05 PDT 2017}[debug]SeleniumUtilHelper::getElementText - Get total initial result count
+{Thu Jun 08 18:23:05 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Get total initial result count
+{Thu Jun 08 18:23:05 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:23:20 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:23:20 PDT 2017}[debug]Total Initial Result : Showing 1-10 of 3434
+{Thu Jun 08 18:23:20 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Thu Jun 08 18:23:20 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Thu Jun 08 18:23:20 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Expand All Filters to select parameters
+{Thu Jun 08 18:23:20 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:23:35 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:23:35 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting neighborhood element at index : 1
+{Thu Jun 08 18:23:35 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting neighborhood element at index : 1
+{Thu Jun 08 18:23:35 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting neighborhood element at index : 1
+{Thu Jun 08 18:23:35 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:23:50 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:23:50 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting neighborhood element at index : 2
+{Thu Jun 08 18:23:50 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting neighborhood element at index : 2
+{Thu Jun 08 18:23:50 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting neighborhood element at index : 2
+{Thu Jun 08 18:23:50 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:24:05 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:24:05 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting distance element at index : 2
+{Thu Jun 08 18:24:05 PDT 2017}[debug]SeleniumUtilHelper::findAndClickOnElement - Selecting distance element at index : 2
+{Thu Jun 08 18:24:05 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting distance element at index : 2
+{Thu Jun 08 18:24:05 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:24:20 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:24:20 PDT 2017}[debug]SeleniumUtilHelper::getElementText - Selecting price element at index : 
+{Thu Jun 08 18:24:20 PDT 2017}[debug]SeleniumUtilHelper::getWebElement - Selecting price element at index : 
+{Thu Jun 08 18:24:20 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:24:35 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:24:35 PDT 2017}[debug]totalCount : (Showing 1-10 of 1989)
+{Thu Jun 08 18:24:35 PDT 2017}[debug]Total times to loop : 10
+{Thu Jun 08 18:24:35 PDT 2017}[debug]Looking for (1) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:24:35 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:24:50 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:24:50 PDT 2017}[debug]Adding rating for index (1) tag (div) to list as (4.0 star rating)
+{Thu Jun 08 18:24:50 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:25:05 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:25:06 PDT 2017}[debug]Looking for link name (1) (1. Locanda) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:25:06 PDT 2017}[debug]Looking for link url (1) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/span/a) with wait time (15000)
+{Thu Jun 08 18:25:06 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:25:21 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:25:21 PDT 2017}[debug]Looking for (2) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[2]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:25:21 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:25:36 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:25:36 PDT 2017}[debug]Adding rating for index (2) tag (div) to list as (4.5 star rating)
+{Thu Jun 08 18:25:36 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:25:51 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:25:51 PDT 2017}[debug]Looking for link name (2) (2. Montella Pizzeria) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[2]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:25:51 PDT 2017}[debug]Looking for (3) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[3]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:25:51 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:26:06 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:26:06 PDT 2017}[debug]Adding rating for index (3) tag (div) to list as (4.0 star rating)
+{Thu Jun 08 18:26:06 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:26:21 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:26:21 PDT 2017}[debug]Looking for link name (3) (3. Pizzeria Delfina - San Francisco) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[3]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:26:21 PDT 2017}[debug]Looking for (4) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[4]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:26:21 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:26:36 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:26:36 PDT 2017}[debug]Adding rating for index (4) tag (div) to list as (4.5 star rating)
+{Thu Jun 08 18:26:36 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:26:51 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:26:51 PDT 2017}[debug]Looking for link name (4) (4. Little Star Pizza) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[4]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:26:51 PDT 2017}[debug]Looking for (5) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[5]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:26:51 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:27:06 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:27:06 PDT 2017}[debug]Adding rating for index (5) tag (div) to list as (4.0 star rating)
+{Thu Jun 08 18:27:06 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:27:21 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:27:21 PDT 2017}[debug]Looking for link name (5) (5. Pizzeria Delfina) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[5]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:27:21 PDT 2017}[debug]Looking for (6) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[6]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:27:21 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:27:36 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:27:36 PDT 2017}[debug]Adding rating for index (6) tag (div) to list as (4.5 star rating)
+{Thu Jun 08 18:27:37 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:27:52 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:27:52 PDT 2017}[debug]Looking for link name (6) (6. The Pizza Shop) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[6]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:27:52 PDT 2017}[debug]Looking for (7) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[7]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:27:52 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:28:07 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:28:07 PDT 2017}[debug]Adding rating for index (7) tag (div) to list as (4.0 star rating)
+{Thu Jun 08 18:28:07 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:28:22 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:28:22 PDT 2017}[debug]Looking for link name (7) (7. Katani Pizza) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[7]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:28:22 PDT 2017}[debug]Looking for (8) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[8]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:28:22 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:28:37 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:28:37 PDT 2017}[debug]Adding rating for index (8) tag (div) to list as (4.5 star rating)
+{Thu Jun 08 18:28:37 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:28:52 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:28:52 PDT 2017}[debug]Looking for link name (8) (8. Montesacro Pinseria-Enoteca) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[8]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:28:52 PDT 2017}[debug]Looking for (9) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[9]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:28:52 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:29:07 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:29:07 PDT 2017}[debug]Adding rating for index (9) tag (div) to list as (4.5 star rating)
+{Thu Jun 08 18:29:07 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:29:22 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:29:22 PDT 2017}[debug]Looking for link name (9) (9. Golden Boy Pizza) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[9]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:29:22 PDT 2017}[debug]Looking for (10) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[10]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Thu Jun 08 18:29:22 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:29:37 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:29:37 PDT 2017}[debug]Adding rating for index (10) tag (div) to list as (4.0 star rating)
+{Thu Jun 08 18:29:37 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:29:52 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 15000 milliseconds
+{Thu Jun 08 18:29:52 PDT 2017}[debug]Looking for link name (10) (10. Escape From New York Pizza) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[10]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Thu Jun 08 18:29:52 PDT 2017}[debug][4.0 star rating, 4.5 star rating, 4.0 star rating, 4.5 star rating, 4.0 star rating, 4.5 star rating, 4.0 star rating, 4.5 star rating, 4.5 star rating, 4.0 star rating]
+{Thu Jun 08 18:29:52 PDT 2017}[debug]{1. Locanda=4.0 star rating, 2. Montella Pizzeria=4.5 star rating, 3. Pizzeria Delfina - San Francisco=4.0 star rating, 4. Little Star Pizza=4.5 star rating, 5. Pizzeria Delfina=4.0 star rating, 6. The Pizza Shop=4.5 star rating, 7. Katani Pizza=4.0 star rating, 8. Montesacro Pinseria-Enoteca=4.5 star rating, 9. Golden Boy Pizza=4.5 star rating, 10. Escape From New York Pizza=4.0 star rating}
+{Thu Jun 08 18:29:52 PDT 2017}[debug]
+
+
+{Thu Jun 08 18:29:52 PDT 2017}[debug]>> Step 10. Click and expand the first result from the search results
+
+Clicking on firstElem : null
+{Thu Jun 08 18:29:55 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got key constructed as (merchant.Address)
+{Thu Jun 08 18:29:55 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got keyRed constructed as (//*[@id="wrap"]/div[2]/div/div[1]/div/div[4]/div[1]/div/div[2]/ul/li[1]/div/strong/address)
+{Thu Jun 08 18:29:55 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:29:56 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:29:56 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Saving key (merchant.Address) value (557 Valencia St
+San Francisco, CA 94110)
+{Thu Jun 08 18:29:56 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got key constructed as (merchant.Phone)
+{Thu Jun 08 18:29:56 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got keyRed constructed as (//*[@id="wrap"]/div[2]/div/div[1]/div/div[4]/div[1]/div/div[2]/ul/li[3]/span[3])
+{Thu Jun 08 18:29:56 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:29:57 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:29:57 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Saving key (merchant.Phone) value ((415) 863-6800)
+{Thu Jun 08 18:29:57 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got key constructed as (merchant.Website)
+{Thu Jun 08 18:29:57 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got keyRed constructed as (//*[@id="wrap"]/div[2]/div/div[1]/div/div[4]/div[1]/div/div[2]/ul/li[4]/span[2]/a)
+{Thu Jun 08 18:29:57 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:29:58 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:29:58 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Saving key (merchant.Website) value (locandasf.com)
+{Thu Jun 08 18:29:58 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got key constructed as (merchant.Review.1)
+{Thu Jun 08 18:29:58 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got keyRed constructed as (//*[@id="super-container"]/div/div/div[1]/div[1]/div[1]/ul/li[1]/div[2]/p)
+{Thu Jun 08 18:29:58 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:29:59 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:29:59 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Saving key (merchant.Review.1) value (“Locanda has officially become one of my favorite brunch places in the city (along with Foreign Cinema).” in 22 reviews)
+{Thu Jun 08 18:29:59 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got key constructed as (merchant.Review.2)
+{Thu Jun 08 18:29:59 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got keyRed constructed as (//*[@id="super-container"]/div/div/div[1]/div[1]/div[1]/ul/li[2]/div[2]/p)
+{Thu Jun 08 18:29:59 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:30:00 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:30:01 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Saving key (merchant.Review.2) value (“We split the pizza bianca (basically homemade focaccia), the fried olives and the artichoke and all three were super good.” in 85 reviews)
+{Thu Jun 08 18:30:01 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got key constructed as (merchant.Review.3)
+{Thu Jun 08 18:30:01 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Got keyRed constructed as (//*[@id="super-container"]/div/div/div[1]/div[1]/div[1]/ul/li[3]/div[2]/p)
+{Thu Jun 08 18:30:01 PDT 2017}[debug]WebElementType::getElement - Begin sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:30:02 PDT 2017}[debug]WebElementType::getElement - End sleeping/delaying for 1000 milliseconds
+{Thu Jun 08 18:30:02 PDT 2017}[debug]SeleniumUtilHelper::getDetailsFromPageAsMap - Saving key (merchant.Review.3) value (“We had the Tonnarelli Cacio E Pepe, the Bucatini All'amatriciana, the Radiatore "pecora E Pecorino" and the Casarecce.” in 21 reviews)
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** Start [Merchant Details] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]
+key (merchant.Address) val (557 Valencia St
+San Francisco, CA 94110)
+key (merchant.Phone) val ((415) 863-6800)
+key (merchant.Website) val (locandasf.com)
+key (merchant.Review.1) val (“Locanda has officially become one of my favorite brunch places in the city (along with Foreign Cinema).” in 22 reviews)
+key (merchant.Review.2) val (“We split the pizza bianca (basically homemade focaccia), the fried olives and the artichoke and all three were super good.” in 85 reviews)
+key (merchant.Review.3) val (“We had the Tonnarelli Cacio E Pepe, the Bucatini All'amatriciana, the Radiatore "pecora E Pecorino" and the Casarecce.” in 21 reviews)
+
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** End [Merchant Details] HashMap (String) dump ***
+*** tearDownExt ***
+
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** Start [tearDownExt()] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]
+key (Result_FinalCount) val (10)
+key (Test_CaseDataNum) val ()
+key (Result_MerchantAddress) val (557 Valencia St
+San Francisco, CA 94110)
+key (Result_FiltersUsed) val (Restaurant Indian / Neighborhood 1,2 / Distance 2)
+key (Test_Result) val (Pass)
+key (Result_MerchantName) val ()
+key (Result_InitialCount) val (Showing 1-10 of 3434)
+key (Result_MerchantWebSite) val ()
+key (Result_Review1) val (“Locanda has officially become one of my favorite brunch places in the city (along with Foreign Cinema).” in 22 reviews)
+key (Test_CaseNum) val (TC0007)
+key (Result_MerchantPhone) val ((415) 863-6800)
+key (Test_CaseDesc) val (Restaurant search with neighborhood (1,2) and distance filter (2))
+key (Result_Review3) val (“We had the Tonnarelli Cacio E Pepe, the Bucatini All'amatriciana, the Radiatore "pecora E Pecorino" and the Casarecce.” in 21 reviews)
+key (Test_CustomerName) val (Yelp)
+key (Result_Review2) val (“We split the pizza bianca (basically homemade focaccia), the fried olives and the artichoke and all three were super good.” in 85 reviews)
+
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** End [tearDownExt()] HashMap (String) dump ***
+**** tearDown () Base ****
+**** tearDownAfterClassExt () Ext ****
+**** tearDownAfterClassExt () Ext, writing report html ****
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBase:: Not overriding path, no system variable UseOutputFilePath defined. Expected full path in file name (CurrentRun_ALL.out.html)
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: Processing testcase : TC0001
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** Start [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]
+key (Result_FinalCount) val (10)
+key (Test_CaseDataNum) val ()
+key (Result_FiltersUsed) val (Restaurant Pizza / Neighborhood 1,3 / Price 1,2)
+key (Test_CaseNum) val (TC0001)
+key (Test_Result) val (Fail)
+key (Test_CaseDesc) val (Restaurant search with neighborhood (1,3) and price filter (1,2))
+key (Test_CustomerName) val (Yelp)
+key (Result_InitialCount) val (Showing 1-10 of 3436)
+
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** End [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: Processing testcase : TC0002
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** Start [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]
+key (Result_FinalCount) val (10)
+key (Test_CaseDataNum) val ()
+key (Result_FiltersUsed) val (Restaurant Pizza / Neighborhood 1,3 / Price 1)
+key (Test_CaseNum) val (TC0002)
+key (Test_Result) val (Fail)
+key (Test_CaseDesc) val (Restaurant search with neighborhood (1,3) and price filter (1))
+key (Test_CustomerName) val (Yelp)
+key (Result_InitialCount) val (Showing 1-10 of 3433)
+
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** End [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: Processing testcase : TC0003
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** Start [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]
+key (Result_FinalCount) val (10)
+key (Test_CaseDataNum) val ()
+key (Result_FiltersUsed) val (Restaurant Pizza / Neighborhood 1 / Price 2)
+key (Test_CaseNum) val (TC0003)
+key (Test_Result) val (Fail)
+key (Test_CaseDesc) val (Restaurant search with neighborhood (1) and price filter (2))
+key (Test_CustomerName) val (Yelp)
+key (Result_InitialCount) val (Showing 1-10 of 3434)
+
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** End [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: Processing testcase : TC0004
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** Start [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]
+key (Result_FinalCount) val (10)
+key (Test_CaseDataNum) val ()
+key (Result_FiltersUsed) val (Restaurant Pizza / Neighborhood 1 / Price 1)
+key (Test_CaseNum) val (TC0004)
+key (Test_Result) val (Fail)
+key (Test_CaseDesc) val (Restaurant search with neighborhood (1) and price filter (1))
+key (Test_CustomerName) val (Yelp)
+key (Result_InitialCount) val (Showing 1-10 of 3434)
+
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** End [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: Processing testcase : TC0005
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** Start [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]
+key (Result_FinalCount) val (10)
+key (Test_CaseDataNum) val ()
+key (Result_FiltersUsed) val (Restaurant Pizza / Neighborhood 1 / Distance 3)
+key (Test_CaseNum) val (TC0005)
+key (Test_Result) val (Fail)
+key (Test_CaseDesc) val (Restaurant search with neighborhood (1) and distance filter (3))
+key (Test_CustomerName) val (Yelp)
+key (Result_InitialCount) val (Showing 1-10 of 3435)
+
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** End [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: Processing testcase : TC0006
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** Start [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]
+key (Result_FinalCount) val (10)
+key (Test_CaseDataNum) val ()
+key (Result_MerchantAddress) val (542 Green St
+San Francisco, CA 94133)
+key (Result_FiltersUsed) val (Restaurant Pizza / Neighborhood 1 / Distance 1)
+key (Test_Result) val (Pass)
+key (Result_MerchantName) val ()
+key (Result_InitialCount) val (Showing 1-10 of 3436)
+key (Result_MerchantWebSite) val ()
+key (Result_Review1) val (“It's a low-key pizza place with a pretty decent beer selection and plenty of wall graffiti to zone out at whilst devouring slice by slice.” in 1380 reviews)
+key (Test_CaseNum) val (TC0006)
+key (Result_MerchantPhone) val ((415) 982-9738)
+key (Test_CaseDesc) val (Restaurant search with neighborhood (1) and distance filter (1))
+key (Result_Review3) val (“Park farther away and walk is my best bet, but if you brave enough u might be able find parking around golden boy.” in 71 reviews)
+key (Test_CustomerName) val (Yelp)
+key (Result_Review2) val (“On our first visit we ordered a slice of cheese, pepperoni, veggie and the garlic clam.” in 347 reviews)
+
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** End [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: Processing testcase : TC0007
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** Start [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]
+key (Result_FinalCount) val (10)
+key (Test_CaseDataNum) val ()
+key (Result_MerchantAddress) val (557 Valencia St
+San Francisco, CA 94110)
+key (Result_FiltersUsed) val (Restaurant Indian / Neighborhood 1,2 / Distance 2)
+key (Test_Result) val (Pass)
+key (Result_MerchantName) val ()
+key (Result_InitialCount) val (Showing 1-10 of 3434)
+key (Result_MerchantWebSite) val ()
+key (Result_Review1) val (“Locanda has officially become one of my favorite brunch places in the city (along with Foreign Cinema).” in 22 reviews)
+key (Test_CaseNum) val (TC0007)
+key (Result_MerchantPhone) val ((415) 863-6800)
+key (Test_CaseDesc) val (Restaurant search with neighborhood (1,2) and distance filter (2))
+key (Result_Review3) val (“We had the Tonnarelli Cacio E Pepe, the Bucatini All'amatriciana, the Radiatore "pecora E Pecorino" and the Casarecce.” in 21 reviews)
+key (Test_CustomerName) val (Yelp)
+key (Result_Review2) val (“We split the pizza bianca (basically homemade focaccia), the fried olives and the artichoke and all three were super good.” in 85 reviews)
+
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** End [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: Processing testcase : TC0008
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: testcase defined but probably not executed : TC0008
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: Processing testcase : TC0009
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: testcase defined but probably not executed : TC0009
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: Processing testcase : TC0010
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: testcase defined but probably not executed : TC0010
+**** tearDownAfterClass () Base ****
+**** tearDownAfterClass () Base, writing report html ****
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBase:: Not overriding path, no system variable UseOutputFilePath defined. Expected full path in file name (CurrentRun_ALL.out.html)
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: Processing testcase : TC0001
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** Start [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]
+key (Result_FinalCount) val (10)
+key (Test_CaseDataNum) val ()
+key (Result_FiltersUsed) val (Restaurant Pizza / Neighborhood 1,3 / Price 1,2)
+key (Test_CaseNum) val (TC0001)
+key (Test_Result) val (Fail)
+key (Test_CaseDesc) val (Restaurant search with neighborhood (1,3) and price filter (1,2))
+key (Test_CustomerName) val (Yelp)
+key (Result_InitialCount) val (Showing 1-10 of 3436)
+
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** End [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: Processing testcase : TC0002
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** Start [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]
+key (Result_FinalCount) val (10)
+key (Test_CaseDataNum) val ()
+key (Result_FiltersUsed) val (Restaurant Pizza / Neighborhood 1,3 / Price 1)
+key (Test_CaseNum) val (TC0002)
+key (Test_Result) val (Fail)
+key (Test_CaseDesc) val (Restaurant search with neighborhood (1,3) and price filter (1))
+key (Test_CustomerName) val (Yelp)
+key (Result_InitialCount) val (Showing 1-10 of 3433)
+
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** End [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: Processing testcase : TC0003
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** Start [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]
+key (Result_FinalCount) val (10)
+key (Test_CaseDataNum) val ()
+key (Result_FiltersUsed) val (Restaurant Pizza / Neighborhood 1 / Price 2)
+key (Test_CaseNum) val (TC0003)
+key (Test_Result) val (Fail)
+key (Test_CaseDesc) val (Restaurant search with neighborhood (1) and price filter (2))
+key (Test_CustomerName) val (Yelp)
+key (Result_InitialCount) val (Showing 1-10 of 3434)
+
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** End [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: Processing testcase : TC0004
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** Start [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]
+key (Result_FinalCount) val (10)
+key (Test_CaseDataNum) val ()
+key (Result_FiltersUsed) val (Restaurant Pizza / Neighborhood 1 / Price 1)
+key (Test_CaseNum) val (TC0004)
+key (Test_Result) val (Fail)
+key (Test_CaseDesc) val (Restaurant search with neighborhood (1) and price filter (1))
+key (Test_CustomerName) val (Yelp)
+key (Result_InitialCount) val (Showing 1-10 of 3434)
+
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** End [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: Processing testcase : TC0005
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** Start [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]
+key (Result_FinalCount) val (10)
+key (Test_CaseDataNum) val ()
+key (Result_FiltersUsed) val (Restaurant Pizza / Neighborhood 1 / Distance 3)
+key (Test_CaseNum) val (TC0005)
+key (Test_Result) val (Fail)
+key (Test_CaseDesc) val (Restaurant search with neighborhood (1) and distance filter (3))
+key (Test_CustomerName) val (Yelp)
+key (Result_InitialCount) val (Showing 1-10 of 3435)
+
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** End [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: Processing testcase : TC0006
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** Start [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]
+key (Result_FinalCount) val (10)
+key (Test_CaseDataNum) val ()
+key (Result_MerchantAddress) val (542 Green St
+San Francisco, CA 94133)
+key (Result_FiltersUsed) val (Restaurant Pizza / Neighborhood 1 / Distance 1)
+key (Test_Result) val (Pass)
+key (Result_MerchantName) val ()
+key (Result_InitialCount) val (Showing 1-10 of 3436)
+key (Result_MerchantWebSite) val ()
+key (Result_Review1) val (“It's a low-key pizza place with a pretty decent beer selection and plenty of wall graffiti to zone out at whilst devouring slice by slice.” in 1380 reviews)
+key (Test_CaseNum) val (TC0006)
+key (Result_MerchantPhone) val ((415) 982-9738)
+key (Test_CaseDesc) val (Restaurant search with neighborhood (1) and distance filter (1))
+key (Result_Review3) val (“Park farther away and walk is my best bet, but if you brave enough u might be able find parking around golden boy.” in 71 reviews)
+key (Test_CustomerName) val (Yelp)
+key (Result_Review2) val (“On our first visit we ordered a slice of cheese, pepperoni, veggie and the garlic clam.” in 347 reviews)
+
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** End [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: Processing testcase : TC0007
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** Start [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]
+key (Result_FinalCount) val (10)
+key (Test_CaseDataNum) val ()
+key (Result_MerchantAddress) val (557 Valencia St
+San Francisco, CA 94110)
+key (Result_FiltersUsed) val (Restaurant Indian / Neighborhood 1,2 / Distance 2)
+key (Test_Result) val (Pass)
+key (Result_MerchantName) val ()
+key (Result_InitialCount) val (Showing 1-10 of 3434)
+key (Result_MerchantWebSite) val ()
+key (Result_Review1) val (“Locanda has officially become one of my favorite brunch places in the city (along with Foreign Cinema).” in 22 reviews)
+key (Test_CaseNum) val (TC0007)
+key (Result_MerchantPhone) val ((415) 863-6800)
+key (Test_CaseDesc) val (Restaurant search with neighborhood (1,2) and distance filter (2))
+key (Result_Review3) val (“We had the Tonnarelli Cacio E Pepe, the Bucatini All'amatriciana, the Radiatore "pecora E Pecorino" and the Casarecce.” in 21 reviews)
+key (Test_CustomerName) val (Yelp)
+key (Result_Review2) val (“We split the pizza bianca (basically homemade focaccia), the fried olives and the artichoke and all three were super good.” in 85 reviews)
+
+{Thu Jun 08 18:30:02 PDT 2017}[debug]*** End [] HashMap (String) dump ***
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: Processing testcase : TC0008
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: testcase defined but probably not executed : TC0008
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: Processing testcase : TC0009
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: testcase defined but probably not executed : TC0009
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: Processing testcase : TC0010
+{Thu Jun 08 18:30:02 PDT 2017}[debug]ReportUtilBasegetReportBody:: testcase defined but probably not executed : TC0010
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 2,073.746 sec
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 4
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 34:37 min
+[INFO] Finished at: 2017-06-08T18:30:02-08:00
+[INFO] Final Memory: 11M/220M
+[INFO] ------------------------------------------------------------------------
