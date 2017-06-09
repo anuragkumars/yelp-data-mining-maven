@@ -1,5 +1,57 @@
 "# yelp-data-mining-maven" 
 
+## How the problem is addressed.
+
+1. Framework created with factory pattern to handle creating Yelp requirement specific implementation
+2. Project has a JUnit class that uses the base util and helper to handle most of the validations
+
+### com/brightplan/automation/projects/yelp/YELP001_DisplaySearchDetails_JUnit
+1. This has one method that implements most of the functionality
+
+public void test_restaurant_search
+	(
+  ..
+  )
+  
+ Individual test methods call this with parameters as shown below.
+ 
+ 	@Test
+	public void test0004_restaurant_search() throws Exception
+	{
+		_thisTestCaseNum = "TC0004";
+		test_restaurant_search
+		(
+				_thisTestCaseNum,
+				"YELP001_" + _thisTestCaseNum + " Restaurant Search with filter - ",
+				"Restaurant search with neighborhood (1) and price filter (1)",
+				"Restaurant Pizza / Neighborhood 1 / Price 1",
+				"Yelp",
+				"",
+				"Restaurant Pizza",
+				new String [] {
+						"Go to yelp.com",
+						"Setting focus on Find",
+						"Select 'Restaurants' in the dropdown box in Find",
+						"Select 'Restaurants' in the dropdown box in Find",
+						"Click Find button after setting search criteria",
+						"Get total initial result count",
+						"Expand All Filters to select parameters",
+						"Selecting neighborhood element at index : ",
+						"Selecting distance element at index : ",
+						"Get total filtered result count",
+						"Getting star rating of merchants",
+						"Selecting price element at index : "
+				},
+				new int [] {1},
+				new int [] {},
+				new int [] {1}
+		);
+	}
+ 
+ 
+
+
+## Installing and running tests
 Follow these steps after downloading the .zip file
 
 1) Unzip into some <path>
